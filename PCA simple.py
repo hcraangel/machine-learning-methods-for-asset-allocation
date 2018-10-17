@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 from datetime import datetime as dt
 import os
 
+# YOU SHOULD CUSTOMIZE YOUR PATH
 os.chdir('C:/2018 Fall Quarter/Codes and Data')
 
 Ret = pd.read_csv('returns.csv')
